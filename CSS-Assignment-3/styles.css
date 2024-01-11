@@ -1,0 +1,103 @@
+/********************* Removing default styling ******************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********** global styling ********************/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.top-container {
+    border: 1px solid black;
+    margin-top: 90px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.wrapper {
+    width: 800px;
+    height: 500px;
+    background-color: red;
+    overflow-y: hidden;
+    border: 2px solid black;
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #FF9999;
+    gap: 20px;
+    padding: 6px;
+    color: #424242;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading-content {
+    font-weight: 500;   /******* making heading lighter **************/
+}
+
+.lower {
+    display: flex;
+    overflow: hidden;
+    color: #424242;
+    font-weight: 100;
+
+}
+
+.lower-para {
+    font-size: 18px;
+}
+
+.lower-heading {
+    margin-bottom: 10px;
+}
+
+.para-content {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.left {
+    background-color: #FFFF73;
+    width: 85%;
+    height: 400px;
+    overflow: hidden;
+    object-fit: cover;
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.image-container {
+    background-color: #FFFF73;
+    width: 200px;
+    padding: 5px 0px 5px 10px;
+}
+
+.banner {
+    width: 530px;
+    height: 325px;
+}
+
+.right-part {
+    width: 300px;
+    background-color: #ECECFB;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 3px;
+    border: 2px solid black;
+    border-right: 0px;
+}
